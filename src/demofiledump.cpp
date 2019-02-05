@@ -551,6 +551,7 @@ void ParseGameEvent( const CSVCMsg_GameEvent &msg, const CSVCMsg_GameEventList::
 				}
 				if ( g_bDumpGameEvents )
 				{
+					printf( "  tick: %i \n", s_nCurrentTick);
 					printf( "}\n" );
 				}
 			}
